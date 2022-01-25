@@ -1,0 +1,1894 @@
+{
+  "campaignData": {
+    "name": "Echanges Franco Belges Connexion 26/05",
+    "start": {
+      "label": "Initial Target",
+      "count": 909
+    },
+    "end": {
+      "label": "Attendees",
+      "count": 13
+    }
+  },
+  "steps": [
+    {
+      "id": 1,
+      "name": "OME Forum 08/06/21 > Votre invitation à l’OME Forum le 8 juin",
+      "channel": {
+        "name": "Email 1to1",
+        "icon": "&#xf658;",
+        "url": true
+      },
+      "phase": {
+        "name": "Execution",
+        "tooltip": "This step is in Execution phase"
+      },
+      "date": {
+        "from": "01/06",
+        "to": "15/06"
+      },
+      "fragments": [
+        "First",
+        "Second",
+        "Last"
+      ],
+      "previous": [],
+      "data": {
+        "values": {
+          "top": [
+            {
+              "label": "Eligible",
+              "tooltip": "In case of a first step, this is the total number of eligible HCPs​\nIn case of a middle step, this is the total number of eligible HCPs coming from the previous step.​\nEligible = HCPs included in the target selection of the campaign",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 265,
+                    "tc2": 184,
+                    "tc3": 203
+                  },
+                  "frag2": {
+                    "tc1": 309,
+                    "tc2": 252,
+                    "tc3": 247
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 109,
+                    "tc2": 103,
+                    "tc3": 103
+                  },
+                  "frag2": {
+                    "tc1": 223,
+                    "tc2": 189,
+                    "tc3": 182
+                  }
+                }
+              }
+            },
+            {
+              "label": "Reached",
+              "tooltip": "This is the total number of HCPs who entered this step",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 265,
+                    "tc2": 184,
+                    "tc3": 203
+                  },
+                  "frag2": {
+                    "tc1": 309,
+                    "tc2": 252,
+                    "tc3": 247
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 109,
+                    "tc2": 103,
+                    "tc3": 103
+                  },
+                  "frag2": {
+                    "tc1": 223,
+                    "tc2": 189,
+                    "tc3": 182
+                  }
+                }
+              }
+            },
+            {
+              "label": "CTOR",
+              "tooltip": "The click-to-open rate (CTOR) compares the number of unique clicks to unique opens. This gives you a better gauge of how the design and messaging resonated with your target, since these clicks are only from HCPs that actually viewed your email\nCTOR = Email Opened / Clicked",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 90,
+                    "tc2": 11,
+                    "tc3": 23
+                  },
+                  "frag2": {
+                    "tc1": 78,
+                    "tc2": 12,
+                    "tc3": 32
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 11,
+                    "tc2": 8,
+                    "tc3": 22
+                  },
+                  "frag2": {
+                    "tc1": 34,
+                    "tc2": 10,
+                    "tc3": 23
+                  }
+                }
+              }
+            }
+          ],
+          "cta": [
+            {
+              "state": "success",
+              "label": "Click-through Rate",
+              "tooltip": "Click-through rate (CTR) shows you the engagement of the email. Unlike CTOR, this measure indicates activity out of everyone who received the email in their inbox.​\nCTR = Emails Clicked / (Sent – Bounced)",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 90,
+                    "tc2": 11,
+                    "tc3": 23
+                  },
+                  "frag2": {
+                    "tc1": 78,
+                    "tc2": 12,
+                    "tc3": 32
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 11,
+                    "tc2": 8,
+                    "tc3": 22
+                  },
+                  "frag2": {
+                    "tc1": 34,
+                    "tc2": 10,
+                    "tc3": 23
+                  }
+                }
+              }
+            },
+            {
+              "state": "success",
+              "label": "I attend",
+              "tooltip": "This is the % of HCPs who clicked on this specific CTA",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 26,
+                    "tc2": 19,
+                    "tc3": 14
+                  },
+                  "frag2": {
+                    "tc1": 77,
+                    "tc2": 23,
+                    "tc3": 52
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 22,
+                    "tc2": 11,
+                    "tc3": 7
+                  },
+                  "frag2": {
+                    "tc1": 67,
+                    "tc2": 21,
+                    "tc3": 48
+                  }
+                }
+              }
+            },
+            {
+              "state": "success",
+              "label": "I remotely attend",
+              "tooltip": "This is the % of HCPs who clicked on this specific CTA",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 23,
+                    "tc2": 88,
+                    "tc3": 23
+                  },
+                  "frag2": {
+                    "tc1": 53,
+                    "tc2": 62,
+                    "tc3": 65
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 21,
+                    "tc2": 44,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 32,
+                    "tc2": 49,
+                    "tc3": 22
+                  }
+                }
+              }
+            },
+            {
+              "state": "failed",
+              "label": "I do not attend",
+              "tooltip": "This is the % of HCPs who clicked on this specific CTA",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 89,
+                    "tc2": 13,
+                    "tc3": 53
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 55,
+                    "tc3": 21
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 28,
+                    "tc2": 9,
+                    "tc3": 10
+                  },
+                  "frag2": {
+                    "tc1": 2,
+                    "tc2": 44,
+                    "tc3": 21
+                  }
+                }
+              }
+            },
+            {
+              "state": "failed",
+              "label": "Unsubscribed",
+              "tooltip": "This is the % of HCPs who clicked on the unsubscribed URL​",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 32,
+                    "tc3": 5
+                  },
+                  "frag2": {
+                    "tc1": 53,
+                    "tc2": 27,
+                    "tc3": 11
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 21,
+                    "tc3": 4
+                  },
+                  "frag2": {
+                    "tc1": 51,
+                    "tc2": 22,
+                    "tc3": 9
+                  }
+                }
+              }
+            }
+          ],
+          "other": [
+            {
+              "state": "unreached",
+              "label": "Sent",
+              "tooltip": "This is the % of emails sent whatever the HCP opened or not the email",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 11,
+                    "tc2": 9,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 5,
+                    "tc2": 32,
+                    "tc3": 24
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 9,
+                    "tc2": 2,
+                    "tc3": 2
+                  },
+                  "frag2": {
+                    "tc1": 4,
+                    "tc2": 24,
+                    "tc3": 22
+                  }
+                }
+              }
+            },
+            {
+              "state": "unreached",
+              "label": "Bounced Rate",
+              "tooltip": "This is the % of emails that have been rejected by the HCP mailbox. A firewall, an invalid email address or a full mailbox can be  the root cause",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 1,
+                    "tc3": 11
+                  },
+                  "frag2": {
+                    "tc1": 4,
+                    "tc2": 9,
+                    "tc3": 12
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 10
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 8,
+                    "tc3": 11
+                  }
+                }
+              }
+            },
+            {
+              "state": "unreached",
+              "label": "Coverage Rate",
+              "tooltip": "This is the % of HCPs from the initial target who have entered this step. Out off Targets are not included",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 12,
+                    "tc2": 1,
+                    "tc3": 49
+                  },
+                  "frag2": {
+                    "tc1": 13,
+                    "tc2": 22,
+                    "tc3": 19
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 9,
+                    "tc2": 0,
+                    "tc3": 45
+                  },
+                  "frag2": {
+                    "tc1": 11,
+                    "tc2": 2,
+                    "tc3": 18
+                  }
+                }
+              }
+            },
+            {
+              "state": "unreached",
+              "label": "Open Rate​",
+              "tooltip": "This is the % of HCPs who opened the email out of the total number of email delivered",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 13,
+                    "tc2": 10,
+                    "tc3": 22
+                  },
+                  "frag2": {
+                    "tc1": 23,
+                    "tc2": 10,
+                    "tc3": 11
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 9,
+                    "tc2": 8,
+                    "tc3": 19
+                  },
+                  "frag2": {
+                    "tc1": 19,
+                    "tc2": 9,
+                    "tc3": 8
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Echanges Franco Belges Connexion 26/05 > Vos informations de connexion : Échanges Franco Belges",
+      "channel": {
+        "name": "Automated Email",
+        "icon": "&#xf674;",
+        "url": true
+      },
+      "phase": {
+        "name": "Execution",
+        "tooltip": "This step is in Execution phase"
+      },
+      "date": {
+        "from": "10/06",
+        "to": "20/06"
+      },
+      "previous": [
+        {
+          "stepId": 1,
+          "label": "Open Rate​",
+          "values": {
+            "total": {
+              "frag1": {
+                "tc1": 13,
+                "tc2": 10,
+                "tc3": 22
+              },
+              "frag2": {
+                "tc1": 23,
+                "tc2": 10,
+                "tc3": 11
+              }
+            },
+            "initialTarget": {
+              "frag1": {
+                "tc1": 9,
+                "tc2": 8,
+                "tc3": 19
+              },
+              "frag2": {
+                "tc1": 19,
+                "tc2": 9,
+                "tc3": 8
+              }
+            }
+          }
+        }
+      ],
+      "data": {
+        "values": {
+          "top": [
+            {
+              "label": "Eligible",
+              "tooltip": "In case of a first step, this is the total number of eligible HCPs​\nIn case of a middle step, this is the total number of eligible HCPs coming from the previous step.​\nEligible = HCPs included in the target selection of the campaign",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 13,
+                    "tc2": 10,
+                    "tc3": 22
+                  },
+                  "frag2": {
+                    "tc1": 23,
+                    "tc2": 10,
+                    "tc3": 11
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 9,
+                    "tc2": 8,
+                    "tc3": 19
+                  },
+                  "frag2": {
+                    "tc1": 19,
+                    "tc2": 9,
+                    "tc3": 8
+                  }
+                }
+              }
+            },
+            {
+              "label": "Reached",
+              "tooltip": "This is the total number of HCPs who entered this step",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 13,
+                    "tc2": 10,
+                    "tc3": 17
+                  },
+                  "frag2": {
+                    "tc1": 21,
+                    "tc2": 10,
+                    "tc3": 10
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 9,
+                    "tc2": 4,
+                    "tc3": 11
+                  },
+                  "frag2": {
+                    "tc1": 12,
+                    "tc2": 2,
+                    "tc3": 6
+                  }
+                }
+              }
+            },
+            {
+              "label": "CTOR",
+              "tooltip": "The click-to-open rate (CTOR) compares the number of unique clicks to unique opens. This gives you a better gauge of how the design and messaging resonated with your target, since these clicks are only from HCPs that actually viewed your email\nCTOR = Email Opened / Clicked",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 3,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            }
+          ],
+          "cta": [
+            {
+              "state": "success",
+              "label": "Click-through Rate",
+              "tooltip": "Click-through rate (CTR) shows you the engagement of the email. Unlike CTOR, this measure indicates activity out of everyone who received the email in their inbox.​\nCTR = Emails Clicked / (Sent – Bounced)",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 1,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 5,
+                    "tc2": 5,
+                    "tc3": 2
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 1,
+                    "tc3": 6
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "state": "success",
+              "label": "I attend",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 3,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            },
+            {
+              "state": "success",
+              "label": "I remotely attend",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 3,
+                    "tc2": 2,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 4,
+                    "tc2": 1,
+                    "tc3": 2
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "state": "failed",
+              "label": "I do not attend",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 1,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 1,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            },
+            {
+              "state": "failed",
+              "label": "Unsubscribed",
+              "tooltip": "This is the % of HCPs who clicked on the unsubscribed URL​",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 1,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 5,
+                    "tc3": 3
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 2,
+                    "tc3": 2
+                  }
+                }
+              }
+            }
+          ],
+          "other": [
+            {
+              "state": "unreached",
+              "label": "Sent",
+              "tooltip": "This is the % of emails sent whatever the HCP opened or not the email",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            },
+            {
+              "state": "unreached",
+              "label": "Bounced",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 1,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 5,
+                    "tc2": 0,
+                    "tc3": 3
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 1,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 4,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "state": "unreached",
+              "label": "Coverage Rate",
+              "tooltip": "This is the % of HCPs from the initial target who have entered this step. Out off Targets are not included",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 1,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 2,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 2,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "state": "unreached",
+              "label": "Open Rate​",
+              "tooltip": "This is the % of HCPs who opened the email out of the total number of email delivered",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 5
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "channel": {
+        "name": "SMS",
+        "icon": "&#xf7cd;"
+      },
+      "phase": {
+        "name": "Execution",
+        "tooltip": "This step is in Execution phase"
+      },
+      "date": {
+        "from": "15/06",
+        "to": "30/06"
+      },
+      "previous": [
+        {
+          "stepId": 2,
+          "label": "I attend",
+          "values": {
+            "total": {
+              "frag1": {
+                "tc1": 2,
+                "tc2": 3,
+                "tc3": 3
+              },
+              "frag2": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 0
+              }
+            },
+            "initialTarget": {
+              "frag1": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 1
+              },
+              "frag2": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 0
+              }
+            }
+          }
+        }
+      ],
+      "data": {
+        "values": {
+          "top": [
+            {
+              "label": "Eligible",
+              "tooltip": "In case of a first step, this is the total number of eligible HCPs​\nIn case of a middle step, this is the total number of eligible HCPs coming from the previous step.​\nEligible = HCPs included in the target selection of the campaign",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 3,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            },
+            {
+              "label": "Reached",
+              "tooltip": "This is the total number of HCPs who entered this step",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 2,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            },
+            {
+              "label": "CTR",
+              "tooltip": "Click-through rate (CTR) shows you the engagement of the SMS. Unlike CTOR, this measure indicates activity out of everyone who received the SMS\nCTR = SMS Clicked / (Sent – Bounced)",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 4,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 3,
+                    "tc3": 0
+                  }
+                }
+              }
+            }
+          ],
+          "cta": [],
+          "other": [
+            {
+              "state": "success",
+              "label": "Opt-In",
+              "tooltip": "This is the total number of mobile Opt-In for this step",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 2,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            },
+            {
+              "state": "unreached",
+              "label": "Delivered",
+              "tooltip": "This is the % of SMS that are successfully delivered",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 1,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 1,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            },
+            {
+              "state": "unreached",
+              "label": "Bounce Rate",
+              "tooltip": "This is the % of SMS that are rejected. An invalid mobile phone number can be the root cause",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "channel": {
+        "name": "Survey",
+        "icon": "&#xf681;"
+      },
+      "phase": {
+        "name": "Execution",
+        "tooltip": "This step is in Execution phase"
+      },
+      "date": {
+        "from": "1/06",
+        "to": "20/06"
+      },
+      "previous": [
+        {
+          "stepId": 1,
+          "label": "I attend",
+          "values": {
+            "total": {
+              "frag1": {
+                "tc1": 26,
+                "tc2": 19,
+                "tc3": 14
+              },
+              "frag2": {
+                "tc1": 77,
+                "tc2": 23,
+                "tc3": 52
+              }
+            },
+            "initialTarget": {
+              "frag1": {
+                "tc1": 22,
+                "tc2": 11,
+                "tc3": 7
+              },
+              "frag2": {
+                "tc1": 67,
+                "tc2": 21,
+                "tc3": 48
+              }
+            }
+          }
+        }
+      ],
+      "data": {
+        "values": {
+          "top": [
+            {
+              "label": "Eligible",
+              "tooltip": "In case of a first step, this is the total number of eligible HCPs​\nIn case of a middle step, this is the total number of eligible HCPs coming from the previous step.​\nEligible = HCPs included in the target selection of the campaign",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 26,
+                    "tc2": 19,
+                    "tc3": 14
+                  },
+                  "frag2": {
+                    "tc1": 77,
+                    "tc2": 23,
+                    "tc3": 52
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 22,
+                    "tc2": 11,
+                    "tc3": 7
+                  },
+                  "frag2": {
+                    "tc1": 67,
+                    "tc2": 21,
+                    "tc3": 48
+                  }
+                }
+              }
+            },
+            {
+              "label": "Reached",
+              "tooltip": "This is the total number of HCPs who entered this step",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 12,
+                    "tc2": 12,
+                    "tc3": 11
+                  },
+                  "frag2": {
+                    "tc1": 21,
+                    "tc2": 22,
+                    "tc3": 20
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 5,
+                    "tc2": 7,
+                    "tc3": 7
+                  },
+                  "frag2": {
+                    "tc1": 9,
+                    "tc2": 18,
+                    "tc3": 24
+                  }
+                }
+              }
+            },
+            {
+              "label": "Response Rate",
+              "tooltip": "This is the % of HCPs who submitted the form out of your total number of email delivered",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 38,
+                    "tc2": 8,
+                    "tc3": 2
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 3,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 3,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 32,
+                    "tc2": 3,
+                    "tc3": 17
+                  }
+                }
+              }
+            }
+          ],
+          "cta": [
+            {
+              "state": "success",
+              "label": "Open Rate​",
+              "tooltip": "This is the % of HCPs who opened the email out of the total number of email delivered",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 5,
+                    "tc2": 5,
+                    "tc3": 8
+                  },
+                  "frag2": {
+                    "tc1": 13,
+                    "tc2": 20,
+                    "tc3": 32
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 3,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 4,
+                    "tc2": 18,
+                    "tc3": 21
+                  }
+                }
+              }
+            },
+            {
+              "state": "success",
+              "label": "Click Rate",
+              "tooltip": "Click-through rate (CTR) shows you the engagement of the email. Unlike CTOR, this measure indicates activity out of everyone who received the email in their inbox.​\nCTR = Emails Clicked / (Sent – Bounced)",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 1,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 5,
+                    "tc2": 2,
+                    "tc3": 3
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 1,
+                    "tc3": 2
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "state": "success",
+              "label": "CSAT",
+              "bold": true,
+              "tooltip": "CSAT score is the sum of respondents that answered somewhat or very satisfied. Obviously, the higher the number the higher the satisfaction will be.",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 3,
+                    "tc2": 4,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 0,
+                    "tc3": 3
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 1,
+                    "tc3": 2
+                  },
+                  "frag2": {
+                    "tc1": 2,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "state": "failed",
+              "label": "NPS",
+              "bold": true,
+              "tooltip": "The Net Promoter Score = % of promoters (respondents that gave a  9-10) – % of detractors (respondents that gave a 0-6)",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 3,
+                    "tc2": 2,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 2
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 2,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            }
+          ],
+          "other": []
+        }
+      }
+    },
+    {
+      "id": 5,
+      "channel": {
+        "name": "Call",
+        "icon": "&#xf0f0;"
+      },
+      "phase": {
+        "name": "Integration",
+        "tooltip": "This step is in Integration phase"
+      },
+      "date": {
+        "from": "10/06",
+        "to": "20/06"
+      },
+      "previous": [
+        {
+          "stepId": 4,
+          "label": "Click Rate",
+          "values": {
+            "total": {
+              "frag1": {
+                "tc1": 1,
+                "tc2": 1,
+                "tc3": 1
+              },
+              "frag2": {
+                "tc1": 5,
+                "tc2": 2,
+                "tc3": 3
+              }
+            },
+            "initialTarget": {
+              "frag1": {
+                "tc1": 2,
+                "tc2": 1,
+                "tc3": 2
+              },
+              "frag2": {
+                "tc1": 3,
+                "tc2": 0,
+                "tc3": 1
+              }
+            }
+          }
+        }
+      ],
+      "data": {
+        "values": {
+          "top": [
+            {
+              "label": "Eligible",
+              "tooltip": "In case of a first step, this is the total number of eligible HCPs​\nIn case of a middle step, this is the total number of eligible HCPs coming from the previous step.​\nEligible = HCPs included in the target selection of the campaign",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 1,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 5,
+                    "tc2": 2,
+                    "tc3": 3
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 1,
+                    "tc3": 2
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "label": "Reached",
+              "tooltip": "This is the total number of HCPs who entered this step",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 1,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 5,
+                    "tc2": 2,
+                    "tc3": 3
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 1,
+                    "tc3": 2
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            }
+          ],
+          "cta": [],
+          "other": []
+        }
+      }
+    },
+    {
+      "id": 6,
+      "channel": {
+        "name": "Event",
+        "icon": "&#xf073;"
+      },
+      "phase": {
+        "name": "Preparation",
+        "tooltip": "This step is in Preparation phase"
+      },
+      "date": {
+        "at": "30/06/2021"
+      },
+      "previous": [
+        {
+          "stepId": 5,
+          "label": "Visited",
+          "values": {
+            "total": {
+              "frag1": {
+                "tc1": 1,
+                "tc2": 1,
+                "tc3": 1
+              },
+              "frag2": {
+                "tc1": 5,
+                "tc2": 2,
+                "tc3": 3
+              }
+            },
+            "initialTarget": {
+              "frag1": {
+                "tc1": 2,
+                "tc2": 1,
+                "tc3": 2
+              },
+              "frag2": {
+                "tc1": 3,
+                "tc2": 0,
+                "tc3": 1
+              }
+            }
+          }
+        },
+        {
+          "stepId": 3,
+          "label": "Opt-in",
+          "values": {
+            "total": {
+              "frag1": {
+                "tc1": 1,
+                "tc2": 2,
+                "tc3": 1
+              },
+              "frag2": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 0
+              }
+            },
+            "initialTarget": {
+              "frag1": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 1
+              },
+              "frag2": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 0
+              }
+            }
+          }
+        }
+      ],
+      "data": {
+        "pre": {
+          "top": [
+            {
+              "label": "Eligible",
+              "tooltip": "In case of a first step, this is the total number of eligible HCPs​\nIn case of a middle step, this is the total number of eligible HCPs coming from the previous step.​\nEligible = HCPs included in the target selection of the campaign",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 3,
+                    "tc3": 2
+                  },
+                  "frag2": {
+                    "tc1": 5,
+                    "tc2": 2,
+                    "tc3": 3
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 1,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "label": "Reached",
+              "tooltip": "This is the total number of HCPs who entered this step",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 1,
+                    "tc3": 2
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 2,
+                    "tc3": 3
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 1,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 2,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "label": "Approval Remaining",
+              "tooltip": "% of HCP who confirmed their attendance divided by the total number of HCP approved",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            }
+          ],
+          "cta": [],
+          "other": [
+            {
+              "state": "success",
+              "label": "F2F Approval",
+              "tooltip": "This is the % of HCP who confirmed their attendance in F2F",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 2,
+                    "tc3": 1
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 2,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "state": "success",
+              "label": "Confirmed Online",
+              "tooltip": "This is the % of HCP who confirmed their attendance within the Janssen Website",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 1,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 1,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            },
+            {
+              "state": "failed",
+              "label": "Cancelled",
+              "tooltip": "This is the % of HCPs who cancelled their attendance",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 2,
+                    "tc2": 1,
+                    "tc3": 1
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "post": {
+          "top": [
+            {
+              "label": "Eligible",
+              "tooltip": "In case of a first step, this is the total number of eligible HCPs​\nIn case of a middle step, this is the total number of eligible HCPs coming from the previous step.​\nEligible = HCPs included in the target selection of the campaign",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 3,
+                    "tc3": 2
+                  },
+                  "frag2": {
+                    "tc1": 5,
+                    "tc2": 2,
+                    "tc3": 3
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 1,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "label": "Attended",
+              "tooltip": "This is the total number of HCPs who attended the event",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 1,
+                    "tc3": 2
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 2,
+                    "tc3": 3
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 1,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 2,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "label": "Conversion rate",
+              "tooltip": "This is the total number of HCPs who attended the event divided by the potential number",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            }
+          ],
+          "cta": [],
+          "other": [
+            {
+              "state": "success",
+              "label": "Extra Attendees",
+              "tooltip": "This is the total number of Attendees who have been added to the event after the end date",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 2,
+                    "tc3": 1
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 2,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "state": "failed",
+              "label": "Cancelled",
+              "tooltip": "This is the % of HCPs who cancelled their attendance",
+              "values": {
+                "total": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 1,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 1,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1607 @@
+{
+  "campaignData": {
+    "name": "Echanges Franco Belges Connexion 26/05",
+    "start": {
+      "label": "Initial Target",
+      "count": 909
+    },
+    "end": {
+      "label": "Attendees",
+      "count": 0
+    }
+  },
+  "steps": [
+    {
+      "id": 1,
+      "channel": {
+        "id": "email-1to1",
+        "name": "Email 1to1"
+      },
+      "phase": {
+        "id": "execution",
+        "name": "Execution"
+      },
+      "name": "OME Forum 08/06/21 > Votre invitation à l’OME Forum le 8 juin",
+      "date": {
+        "from": "01/06",
+        "to": "15/06"
+      },
+      "previous": [], 
+      "data": {
+        "percentOK": {
+          "label": "CTOR",
+          "value": {
+            "total": {
+              "frag1": {
+                "tc1": 90,
+                "tc2": 11,
+                "tc3": 23
+              },
+              "frag2": {
+                "tc1": 78,
+                "tc2": 12,
+                "tc3": 32
+              }
+            },
+            "initialTarget": {
+              "frag1": {
+                "tc1": 11,
+                "tc2": 8,
+                "tc3": 22
+              },
+              "frag2": {
+                "tc1": 34,
+                "tc2": 10,
+                "tc3": 23
+              }
+            }
+          }
+        },
+        "target": {
+          "total": {
+            "frag1": {
+              "tc1": 265,
+              "tc2": 184,
+              "tc3": 203
+            },
+            "frag2": {
+              "tc1": 309,
+              "tc2": 252,
+              "tc3": 247
+            }
+          },
+          "initialTarget": {
+            "frag1": {
+              "tc1": 109,
+              "tc2": 103,
+              "tc3": 103
+            },
+            "frag2": {
+              "tc1": 223,
+              "tc2": 189,
+              "tc3": 182
+            }
+          }
+        },
+        "potentialTarget": {
+          "total": {
+            "frag1": {
+              "tc1": 265,
+              "tc2": 184,
+              "tc3": 203
+            },
+            "frag2": {
+              "tc1": 309,
+              "tc2": 252,
+              "tc3": 247
+            }
+          },
+          "initialTarget": {
+            "frag1": {
+              "tc1": 109,
+              "tc2": 103,
+              "tc3": 103
+            },
+            "frag2": {
+              "tc1": 223,
+              "tc2": 189,
+              "tc3": 182
+            }
+          }
+        },
+        "activities": {
+          "cta": [
+            {
+              "label": "Click-through Rate",
+              "color": "#003f5c",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 90,
+                    "tc2": 11,
+                    "tc3": 23
+                  },
+                  "frag2": {
+                    "tc1": 78,
+                    "tc2": 12,
+                    "tc3": 32
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 11,
+                    "tc2": 8,
+                    "tc3": 22
+                  },
+                  "frag2": {
+                    "tc1": 34,
+                    "tc2": 10,
+                    "tc3": 23
+                  }
+                }
+              }
+            },
+            {
+              "label": "Je participe",
+              "color": "#d45087",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 26,
+                    "tc2": 19,
+                    "tc3": 14
+                  },
+                  "frag2": {
+                    "tc1": 77,
+                    "tc2": 23,
+                    "tc3": 52
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 22,
+                    "tc2": 11,
+                    "tc3": 7
+                  },
+                  "frag2": {
+                    "tc1": 67,
+                    "tc2": 21,
+                    "tc3": 48
+                  }
+                }
+              }
+            },
+            {
+              "label": "Je participe à distance",
+              "color": "#ffa600",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 23,
+                    "tc2": 88,
+                    "tc3": 23
+                  },
+                  "frag2": {
+                    "tc1": 53,
+                    "tc2": 62,
+                    "tc3": 65
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 21,
+                    "tc2": 44,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 32,
+                    "tc2": 49,
+                    "tc3": 22
+                  }
+                }
+              }
+            },
+            {
+              "label": "Je ne participe pas",
+              "color": "#665191",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 89,
+                    "tc2": 13,
+                    "tc3": 53
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 55,
+                    "tc3": 21
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 28,
+                    "tc2": 9,
+                    "tc3": 10
+                  },
+                  "frag2": {
+                    "tc1": 2,
+                    "tc2": 44,
+                    "tc3": 21
+                  }
+                }
+              }
+            },
+            {
+              "label": "Unsubscribed",
+              "color": "#a05195",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 32,
+                    "tc3": 5
+                  },
+                  "frag2": {
+                    "tc1": 53,
+                    "tc2": 27,
+                    "tc3": 11
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 21,
+                    "tc3": 4
+                  },
+                  "frag2": {
+                    "tc1": 51,
+                    "tc2": 22,
+                    "tc3": 9
+                  }
+                }
+              }
+            }
+          ],
+          "other": [
+            {
+              "label": "Sent",
+              "color": "#ff7c43",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 11,
+                    "tc2": 9,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 5,
+                    "tc2": 32,
+                    "tc3": 24
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 9,
+                    "tc2": 2,
+                    "tc3": 2
+                  },
+                  "frag2": {
+                    "tc1": 4,
+                    "tc2": 24,
+                    "tc3": 22
+                  }
+                }
+              }
+            },
+            {
+              "label": "Bounced",
+              "color": "#ff7c43",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 1,
+                    "tc3": 11
+                  },
+                  "frag2": {
+                    "tc1": 4,
+                    "tc2": 9,
+                    "tc3": 12
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 10
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 8,
+                    "tc3": 11
+                  }
+                }
+              }
+            },
+            {
+              "label": "Coverage Rate",
+              "color": "#f95d6a",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 12,
+                    "tc2": 1,
+                    "tc3": 49
+                  },
+                  "frag2": {
+                    "tc1": 13,
+                    "tc2": 22,
+                    "tc3": 19
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 9,
+                    "tc2": 0,
+                    "tc3": 45
+                  },
+                  "frag2": {
+                    "tc1": 11,
+                    "tc2": 2,
+                    "tc3": 18
+                  }
+                }
+              }
+            },
+            {
+              "label": "Open Rate​",
+              "color": "#f95d6a",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 13,
+                    "tc2": 10,
+                    "tc3": 22
+                  },
+                  "frag2": {
+                    "tc1": 23,
+                    "tc2": 10,
+                    "tc3": 11
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 9,
+                    "tc2": 8,
+                    "tc3": 19
+                  },
+                  "frag2": {
+                    "tc1": 19,
+                    "tc2": 9,
+                    "tc3": 8
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "previous": [
+        {
+          "stepId": 1,
+          "count": {
+            "total": {
+              "frag1": {
+                "tc1": 13,
+                "tc2": 10,
+                "tc3": 22
+              },
+              "frag2": {
+                "tc1": 23,
+                "tc2": 10,
+                "tc3": 11
+              }
+            },
+            "initialTarget": {
+              "frag1": {
+                "tc1": 9,
+                "tc2": 8,
+                "tc3": 19
+              },
+              "frag2": {
+                "tc1": 19,
+                "tc2": 9,
+                "tc3": 8
+              }
+            }
+          },
+          "label": "Open Rate​"
+        }
+      ],
+      "channel": {
+        "id": "automated-email",
+        "name": "Automated Email"
+      },
+      "phase": {
+        "id": "execution",
+        "name": "Execution"
+      },
+      "name": "Echanges Franco Belges Connexion 26/05 > Vos informations de connexion : Échanges Franco Belges",
+      "date": {
+        "from": "10/06",
+        "to": "20/06"
+      },
+      "nbFragments": 4,
+      "data": {
+        "percentOK": {
+          "label": "CTOR",
+          "value": {
+            "total": {
+              "frag1": {
+                "tc1": 2,
+                "tc2": 3,
+                "tc3": 3
+              },
+              "frag2": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 0
+              }
+            },
+            "initialTarget": {
+              "frag1": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 1
+              },
+              "frag2": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 0
+              }
+            }
+          }
+        },
+        "target": {
+          "total": {
+            "frag1": {
+              "tc1": 13,
+              "tc2": 10,
+              "tc3": 17
+            },
+            "frag2": {
+              "tc1": 21,
+              "tc2": 10,
+              "tc3": 10
+            }
+          },
+          "initialTarget": {
+            "frag1": {
+              "tc1": 9,
+              "tc2": 4,
+              "tc3": 11
+            },
+            "frag2": {
+              "tc1": 12,
+              "tc2": 2,
+              "tc3": 6
+            }
+          }
+        },
+        "potentialTarget": {
+          "total": {
+            "frag1": {
+              "tc1": 13,
+              "tc2": 10,
+              "tc3": 22
+            },
+            "frag2": {
+              "tc1": 23,
+              "tc2": 10,
+              "tc3": 11
+            }
+          },
+          "initialTarget": {
+            "frag1": {
+              "tc1": 9,
+              "tc2": 8,
+              "tc3": 19
+            },
+            "frag2": {
+              "tc1": 19,
+              "tc2": 9,
+              "tc3": 8
+            }
+          }
+        },
+        "activities": {
+          "cta": [
+            {
+              "label": "Click-through Rate",
+              "color": "#003f5c",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 1,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 5,
+                    "tc2": 5,
+                    "tc3": 2
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 1,
+                    "tc3": 6
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "label": "Je participe",
+              "color": "#d45087",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 3,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            },
+            {
+              "label": "Je participe à distance",
+              "color": "#ffa600",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 3,
+                    "tc2": 2,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 4,
+                    "tc2": 1,
+                    "tc3": 2
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "label": "Je ne participe pas",
+              "color": "#665191",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 1,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 1,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            },
+            {
+              "label": "Unsubscribed",
+              "color": "#a05195",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 1,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 5,
+                    "tc3": 3
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 2,
+                    "tc3": 2
+                  }
+                }
+              }
+            }
+          ],
+          "other": [
+            {
+              "label": "Sent",
+              "color": "#ff7c43",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            },
+            {
+              "label": "Bounced",
+              "color": "#ff7c43",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 1,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 5,
+                    "tc2": 0,
+                    "tc3": 3
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 1,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 4,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "label": "Coverage Rate",
+              "color": "#f95d6a",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 1,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 2,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 2,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "label": "Open Rate​",
+              "color": "#f95d6a",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 5
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "previous": [
+        {
+          "stepId": 2,
+          "count": {
+            "total": {
+              "frag1": {
+                "tc1": 2,
+                "tc2": 3,
+                "tc3": 3
+              },
+              "frag2": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 0
+              }
+            },
+            "initialTarget": {
+              "frag1": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 1
+              },
+              "frag2": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 0
+              }
+            }
+          },
+          "label": "Je participe"
+        }
+      ],
+      "channel": {
+        "id": "sms",
+        "name": "SMS"
+      },
+      "phase": {
+        "id": "execution",
+        "name": "Execution"
+      },
+      "date": {
+        "from": "15/06",
+        "to": "30/06"
+      },
+      "data": {
+        "percentOK": {
+          "label": "CTOR",
+          "value": {
+            "total": {
+              "frag1": {
+                "tc1": 12,
+                "tc2": 0,
+                "tc3": 12
+              },
+              "frag2": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 0
+              }
+            },
+            "initialTarget": {
+              "frag1": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 1
+              },
+              "frag2": {
+                "tc1": 0,
+                "tc2": 3,
+                "tc3": 0
+              }
+            }
+          }
+        },
+        "target": {
+          "total": {
+            "frag1": {
+              "tc1": 1,
+              "tc2": 2,
+              "tc3": 1
+            },
+            "frag2": {
+              "tc1": 0,
+              "tc2": 0,
+              "tc3": 0
+            }
+          },
+          "initialTarget": {
+            "frag1": {
+              "tc1": 0,
+              "tc2": 0,
+              "tc3": 1
+            },
+            "frag2": {
+              "tc1": 0,
+              "tc2": 0,
+              "tc3": 0
+            }
+          }
+        },
+        "potentialTarget": {
+          "total": {
+            "frag1": {
+              "tc1": 2,
+              "tc2": 3,
+              "tc3": 3
+            },
+            "frag2": {
+              "tc1": 0,
+              "tc2": 0,
+              "tc3": 0
+            }
+          },
+          "initialTarget": {
+            "frag1": {
+              "tc1": 0,
+              "tc2": 0,
+              "tc3": 1
+            },
+            "frag2": {
+              "tc1": 0,
+              "tc2": 0,
+              "tc3": 0
+            }
+          }
+        },
+        "activities": {
+          "cta": [],
+          "other": [
+            {
+              "label": "Opened",
+              "color": "#f95d6a",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 2,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "previous": [
+        {
+          "stepId": 1,
+          "count": {
+            "total": {
+              "frag1": {
+                "tc1": 26,
+                "tc2": 19,
+                "tc3": 14
+              },
+              "frag2": {
+                "tc1": 77,
+                "tc2": 23,
+                "tc3": 52
+              }
+            },
+            "initialTarget": {
+              "frag1": {
+                "tc1": 22,
+                "tc2": 11,
+                "tc3": 7
+              },
+              "frag2": {
+                "tc1": 67,
+                "tc2": 21,
+                "tc3": 48
+              }
+            }
+          },
+          "label": "Je participe"
+        }
+      ],
+      "channel": {
+        "id": "survey",
+        "name": "Survey"
+      },
+      "phase": {
+        "id": "execution",
+        "name": "Execution"
+      },
+      "date": {
+        "from": "1/06",
+        "to": "20/06"
+      },
+      "data": {
+        "percentOK": {
+          "label": "Response Rate",
+          "value": {
+            "total": {
+              "frag1": {
+                "tc1": 38,
+                "tc2": 8,
+                "tc3": 2
+              },
+              "frag2": {
+                "tc1": 3,
+                "tc2": 3,
+                "tc3": 0
+              }
+            },
+            "initialTarget": {
+              "frag1": {
+                "tc1": 0,
+                "tc2": 3,
+                "tc3": 3
+              },
+              "frag2": {
+                "tc1": 32,
+                "tc2": 3,
+                "tc3": 17
+              }
+            }
+          }
+        },
+        "target": {
+          "total": {
+            "frag1": {
+              "tc1": 12,
+              "tc2": 12,
+              "tc3": 11
+            },
+            "frag2": {
+              "tc1": 21,
+              "tc2": 22,
+              "tc3": 20
+            }
+          },
+          "initialTarget": {
+            "frag1": {
+              "tc1": 5,
+              "tc2": 7,
+              "tc3": 7
+            },
+            "frag2": {
+              "tc1": 9,
+              "tc2": 18,
+              "tc3": 24
+            }
+          }
+        },
+        "potentialTarget": {
+          "total": {
+            "frag1": {
+              "tc1": 26,
+              "tc2": 19,
+              "tc3": 14
+            },
+            "frag2": {
+              "tc1": 77,
+              "tc2": 23,
+              "tc3": 52
+            }
+          },
+          "initialTarget": {
+            "frag1": {
+              "tc1": 22,
+              "tc2": 11,
+              "tc3": 7
+            },
+            "frag2": {
+              "tc1": 67,
+              "tc2": 21,
+              "tc3": 48
+            }
+          }
+        },
+        "activities": {
+          "cta": [
+            {
+              "label": "Open Rate​",
+              "color": "#003f5c",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 5,
+                    "tc2": 5,
+                    "tc3": 8
+                  },
+                  "frag2": {
+                    "tc1": 13,
+                    "tc2": 20,
+                    "tc3": 32
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 3,
+                    "tc3": 3
+                  },
+                  "frag2": {
+                    "tc1": 4,
+                    "tc2": 18,
+                    "tc3": 21
+                  }
+                }
+              }
+            },
+            {
+              "label": "Click Rate",
+              "color": "#d45087",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 1,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 5,
+                    "tc2": 2,
+                    "tc3": 3
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 2,
+                    "tc2": 1,
+                    "tc3": 2
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "label": "CSAT",
+              "color": "#ffa600",
+              "bold": true,
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 3,
+                    "tc2": 4,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 3,
+                    "tc2": 0,
+                    "tc3": 3
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 1,
+                    "tc3": 2
+                  },
+                  "frag2": {
+                    "tc1": 2,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "label": "NPS",
+              "color": "#665191",
+              "bold": true,
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 3,
+                    "tc2": 2,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 2
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 2,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            }
+          ],
+          "other": []
+        }
+      }
+    },
+    {
+      "id": 5,
+      "previous": [
+        {
+          "stepId": 4,
+          "count": {
+            "total": {
+              "frag1": {
+                "tc1": 1,
+                "tc2": 1,
+                "tc3": 1
+              },
+              "frag2": {
+                "tc1": 5,
+                "tc2": 2,
+                "tc3": 3
+              }
+            },
+            "initialTarget": {
+              "frag1": {
+                "tc1": 2,
+                "tc2": 1,
+                "tc3": 2
+              },
+              "frag2": {
+                "tc1": 3,
+                "tc2": 0,
+                "tc3": 1
+              }
+            }
+          },
+          "label": "Click Rate"
+        }
+      ],
+      "channel": {
+        "id": "call",
+        "name": "Call"
+      },
+      "phase": {
+        "id": "integration",
+        "name": "Integration"
+      },
+      "date": {
+        "from": "10/06",
+        "to": "20/06"
+      },
+      "data": {
+        "percentOK": null,
+        "target": {
+          "total": {
+            "frag1": {
+              "tc1": 1,
+              "tc2": 1,
+              "tc3": 1
+            },
+            "frag2": {
+              "tc1": 5,
+              "tc2": 2,
+              "tc3": 3
+            }
+          },
+          "initialTarget": {
+            "frag1": {
+              "tc1": 2,
+              "tc2": 1,
+              "tc3": 2
+            },
+            "frag2": {
+              "tc1": 3,
+              "tc2": 0,
+              "tc3": 1
+            }
+          }
+        },
+        "potentialTarget": {
+          "total": {
+            "frag1": {
+              "tc1": 1,
+              "tc2": 1,
+              "tc3": 1
+            },
+            "frag2": {
+              "tc1": 5,
+              "tc2": 2,
+              "tc3": 3
+            }
+          },
+          "initialTarget": {
+            "frag1": {
+              "tc1": 2,
+              "tc2": 1,
+              "tc3": 2
+            },
+            "frag2": {
+              "tc1": 3,
+              "tc2": 0,
+              "tc3": 1
+            }
+          }
+        },
+        "activities": null
+      }
+    },
+    {
+      "id": 6,
+      "final": true,
+      "previous": [
+        {
+          "stepId": 5,
+          "count": {
+            "total": {
+              "frag1": {
+                "tc1": 1,
+                "tc2": 1,
+                "tc3": 1
+              },
+              "frag2": {
+                "tc1": 5,
+                "tc2": 2,
+                "tc3": 3
+              }
+            },
+            "initialTarget": {
+              "frag1": {
+                "tc1": 2,
+                "tc2": 1,
+                "tc3": 2
+              },
+              "frag2": {
+                "tc1": 3,
+                "tc2": 0,
+                "tc3": 1
+              }
+            }
+          },
+          "label": "Visited"
+        },
+        {
+          "stepId": 3,
+          "count": {
+            "total": {
+              "frag1": {
+                "tc1": 1,
+                "tc2": 2,
+                "tc3": 1
+              },
+              "frag2": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 0
+              }
+            },
+            "initialTarget": {
+              "frag1": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 1
+              },
+              "frag2": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 0
+              }
+            }
+          },
+          "label": "Opened"
+        }
+      ],
+      "channel": {
+        "id": "event",
+        "name": "Event"
+      },
+      "phase": {
+        "id": "preparation",
+        "name": "Preparation"
+      },
+      "date": "30/06/2021",
+      "data": {
+        "percentOK": {
+          "label": "Attended",
+          "value": {
+            "total": {
+              "frag1": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 0
+              },
+              "frag2": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 0
+              }
+            },
+            "initialTarget": {
+              "frag1": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 0
+              },
+              "frag2": {
+                "tc1": 0,
+                "tc2": 0,
+                "tc3": 0
+              }
+            }
+          }
+        },
+        "target": {
+          "total": {
+            "frag1": {
+              "tc1": 2,
+              "tc2": 1,
+              "tc3": 2
+            },
+            "frag2": {
+              "tc1": 3,
+              "tc2": 2,
+              "tc3": 3
+            }
+          },
+          "initialTarget": {
+            "frag1": {
+              "tc1": 1,
+              "tc2": 1,
+              "tc3": 1
+            },
+            "frag2": {
+              "tc1": 2,
+              "tc2": 0,
+              "tc3": 1
+            }
+          }
+        },
+        "potentialTarget": {
+          "total": {
+            "frag1": {
+              "tc1": 2,
+              "tc2": 3,
+              "tc3": 2
+            },
+            "frag2": {
+              "tc1": 5,
+              "tc2": 2,
+              "tc3": 3
+            }
+          },
+          "initialTarget": {
+            "frag1": {
+              "tc1": 2,
+              "tc2": 1,
+              "tc3": 3
+            },
+            "frag2": {
+              "tc1": 3,
+              "tc2": 0,
+              "tc3": 1
+            }
+          }
+        },
+        "activities": {
+          "cta": [],
+          "other": [
+            {
+              "label": "Confirmed",
+              "color": "#003f5c",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 2,
+                    "tc3": 1
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 0,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 2,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                }
+              }
+            },
+            {
+              "label": "Confirmed Online",
+              "color": "#d45087",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 1,
+                    "tc3": 1
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 1,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            },
+            {
+              "label": "Cancelled",
+              "color": "#ffa600",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 1,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 2,
+                    "tc2": 0,
+                    "tc3": 1
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            },
+            {
+              "label": "Not Attended",
+              "color": "#ffa600",
+              "value": {
+                "total": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 1,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                },
+                "initialTarget": {
+                  "frag1": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  },
+                  "frag2": {
+                    "tc1": 0,
+                    "tc2": 0,
+                    "tc3": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

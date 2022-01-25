@@ -1,0 +1,149 @@
+html {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: 'Roboto'
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.toolbar {
+  position: absolute;
+  width: 100%;
+  z-index: 1200;
+  display: flex;
+}
+
+.toolbar > .right {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.stepIcon {
+  fill: #3c9ee5;
+  font-family: 'Font Awesome 5 Pro';
+  font-size: 0.8em;
+  text-anchor: middle;
+  font-weight: 200;
+}
+
+.node {
+  height: 145px;
+  width: 120px;
+  box-shadow: 6px 6px 18px rgb(197, 194, 194);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.fullnode {
+  height: 470px;
+  width: 290px;
+  box-shadow: 6px 6px 18px rgb(197, 194, 194);
+  border-radius: 15px;
+  cursor: inherit;
+}
+
+.initial-node {
+  height: 470px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.initial-node > div {
+  box-shadow: 6px 6px 18px rgb(197, 194, 194);
+  border-radius: 100px;
+  border: 2px solid #3c9ee5;
+  height: 120px;
+  width: 120px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.end-node {
+  height: 470px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.end-node > div {
+  box-shadow: 6px 6px 18px rgb(197, 194, 194);
+  border-radius: 100px;
+  border: 2px solid #3c9ee5;
+  height: 120px;
+  width: 120px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.node-container {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 100%;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.node-status {
+  text-align: center;
+  font-size: small;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #a8a7a7;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.round-button {
+  font-size: 30px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 40px;
+  color: #a8a7a7;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.round-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.slick-dots li button:before {
+  font-size: 10px !important;
+}
+
+.download-button {
+  width: 14px;
+  padding: 1px;
+  border-radius: 5px;
+  text-align: center;
+}
